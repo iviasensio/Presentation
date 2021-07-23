@@ -1,0 +1,32 @@
+.Presentation .qv-object-nav > a.border {
+	background: #f2f2f2;
+}
+.qvt-sheet {
+  	background-color: #5babf1; 
+}
+.qv-panel-sheet.qv-custom-size #grid{
+	background-color: transparent;
+}
+.qv-object .qv-inner-object {
+	background-color: transparent !important;
+	overflow: visible;
+}
+
+.qv-object .qv-object-header{
+  padding-bottom: 0;
+}
+
+/*Mobile hack*/
+.sheet-list #grid .cell-content .qv-object{
+	background-color: transparent;
+}
+@media screen and (max-height: 480px), screen and (max-width: 640px) {
+	.sheet-list #grid {
+    background-color: #fff !important;
+  }
+}
+
+/* footnote hack */
+.qv-footer-wrapper{
+	background-color: transparent;
+}

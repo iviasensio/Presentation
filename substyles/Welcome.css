@@ -1,0 +1,23 @@
+.qv-object-qlik-multi-kpi{
+    height: 0px;
+    width: 0px;    
+}
+.qv-panel-sheet .sheet-title-container {
+    /*background: #ce8c25!important;*/
+    background: url(../img/saw.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    /*background-color: #f2f2f2;*/
+    overflow: hidden; 
+}
+#sheet-title .sheet-title-text {
+  visibility: hidden;
+}
+
+.qv-panel-sheet.qv-custom-size #grid{
+	background-color: transparent;
+}
+.qv-object .qv-inner-object {
+	background-color: transparent !important;
+	overflow: visible;
+}
